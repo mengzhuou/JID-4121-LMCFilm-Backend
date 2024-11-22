@@ -2,8 +2,8 @@
 const allowedOrigins = [
     'http://localhost:3000',
     'https://lmcfilms.netlify.app',
-    'https://www.lmcfilms.lmc.gatech.edu/',
-    'https://lmcfilms.lmc.gatech.edu/'
+    // 'https://www.lmcfilms.lmc.gatech.edu/',
+    // 'https://lmcfilms.lmc.gatech.edu/'
 ]
 
 module.exports = allowedOrigins
