@@ -1,0 +1,273 @@
+20240822	22:28:52	ca2be346-96d9-4263-9797-92fd8f38924b	Error: Not allowed by LMCFilm CORS	OPTIONS	/	https://calendar.google.com
+20240822	22:28:52	e25476b2-e2d9-4c68-8b55-0bb70b092689	Error: Not allowed by LMCFilm CORS	GET	/	https://calendar.google.com
+20240824	19:21:59	0565a9ef-bd2f-41af-b2f3-26b0d0955a4d	TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.	POST	/students	undefined
+20240901	01:05:45	88ad96ba-7360-4cd9-873d-b0cea17aeeee	SyntaxError: Unexpected token n in JSON at position 0	GET	/api/pickup-item/Light_Ninatest/E001	undefined
+20240901	01:05:58	3ae2b7d8-ae60-4d47-aab1-f8ceb88f0b15	SyntaxError: Unexpected token n in JSON at position 0	GET	/api/pickup-item/Light_Ninatest/E001	undefined
+20240901	01:06:11	344c26c4-050d-4663-9295-f598e8fdd536	SyntaxError: Unexpected token n in JSON at position 0	GET	/api/pickup-item/LightNinatest/E001	undefined
+20240901	01:09:57	6f26322b-2f6b-44e4-b106-70c0f8b47952	ValidationError: Item validation failed: quantity: Cast to Number failed for value "NaN" (type number) at path "quantity"	POST	/api/purchase-single/Light_Ninatest	undefined
+20240901	01:11:19	3c0de86f-8ebb-48a8-a0da-f9918ddac48d	ValidationError: Item validation failed: quantity: Cast to Number failed for value "NaN" (type number) at path "quantity"	POST	/api/purchase-single/Light_Ninatest	undefined
+20240901	01:11:20	99bfe712-3b3b-4ab2-ab4d-e89c7fffd5ea	ValidationError: Item validation failed: quantity: Cast to Number failed for value "NaN" (type number) at path "quantity"	POST	/api/purchase-single/Light_Ninatest	undefined
+20240901	01:13:09	7b9582a1-c507-4f70-b4e8-ce9838d73e15	ValidationError: Item validation failed: quantity: Cast to Number failed for value "NaN" (type number) at path "quantity"	POST	/api/return-single/Camera_A	undefined
+20240921	22:03:43	3a9c3ffa-bbf0-4141-8546-961334dec69f	Error: Please add all fields	POST	/students	undefined
+20240921	22:04:26	4327dd2b-eb70-4560-8e44-dccf15f8d5bf	Error: Student with this email already exists	POST	/students	undefined
+20240922	17:52:08	6c5f1e29-cb06-4405-9c72-c0b58e2d4c65	TypeError: student.remove is not a function	DELETE	/students/66cd05e153edddb229fd5acb	http://localhost:3000
+20240922	17:58:23	5df7d1ce-7a36-46c0-9855-878f50c46153	TypeError: student.remove is not a function	DELETE	/students/66cd05e153edddb229fd5acb	http://localhost:3000
+20240922	17:58:25	03d7eabc-5f31-4212-bd3b-6971c5035ec5	TypeError: student.remove is not a function	DELETE	/students/66cd05e153edddb229fd5acb	http://localhost:3000
+20240922	18:00:23	df3a58d0-edf5-4984-84d7-d2c1d8785603	Error: Student with this email already exists	POST	/students	undefined
+20240922	18:28:32	82e781f8-2c44-4f92-be68-a3187888b549	Error: Student with this email already exists	POST	/students	undefined
+20240923	00:58:55	3588e488-0b3a-46ab-baf7-56fec83d7bb4	Error: Invalid role	PUT	/students/66f0936d34c250376fd47500/role	http://localhost:3000
+20240923	00:59:50	d2fac333-68ea-4388-8549-55871d91a6e9	Error: Invalid role	PUT	/students/66f0936d34c250376fd47500/role	http://localhost:3000
+20240923	11:46:39	79cccbfb-bb9f-49c1-b10e-12a3932ab66b	Error: Invalid role	PUT	/students/66f0983434c250376fd4756c/role	http://localhost:3000
+20240923	11:48:45	1c940403-7821-4d2d-9180-daa7b15a830f	Error: Invalid role	PUT	/students/66f0936d34c250376fd47500/role	http://localhost:3000
+20240923	11:54:37	43e843b5-d35c-45fb-a535-3c931f55de5e	Error: Invalid role	PUT	/students/66f0983434c250376fd4756c/role	undefined
+20240923	12:33:05	feb92e3c-689a-4e19-a21d-5a3523fcc3d0	Error: Student with this email already exists	POST	/students	undefined
+20240925	00:09:20	2f04ac19-735f-476d-9ba6-26e6b785cd73	ValidationError: Item validation failed: itemIds.9.itemId: Cast to string failed for value "{ itemId: 'E001' }" (type Object) at path "itemId", itemIds.10.itemId: Cast to string failed for value "{ itemId: 'E002' }" (type Object) at path "itemId"	POST	/api/item	undefined
+20240925	00:09:40	d62cff6f-e127-4d3c-8233-be0ec3f9e6b7	TypeError: itemIds.map is not a function	POST	/api/item	undefined
+20240925	00:09:55	0b124bb3-245c-45fd-b9b9-89502c138d89	TypeError: itemIds.map is not a function	POST	/api/item	undefined
+20240925	00:10:00	05fef1b8-8f9e-4f10-b800-f095ae7edbff	ValidationError: Item validation failed: itemIds.9.itemId: Cast to string failed for value "{ itemId: 'E001' }" (type Object) at path "itemId", itemIds.10.itemId: Cast to string failed for value "{ itemId: 'E002' }" (type Object) at path "itemId"	POST	/api/item	undefined
+20240925	00:10:04	04e11dfd-9de2-4843-a89a-b95fda3285c8	ValidationError: Item validation failed: itemIds.9.itemId: Cast to string failed for value "{ itemId: 'E001' }" (type Object) at path "itemId", itemIds.10.itemId: Cast to string failed for value "{ itemId: 'E002' }" (type Object) at path "itemId"	POST	/api/item	undefined
+20240928	21:20:18	683ccd8f-d89b-4946-86fc-2ef55da62d9e	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20240929	21:30:09	e41b2ef0-9165-4440-ad7b-224a8ecd57aa	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241001	13:46:37	69a1cb14-e2d4-4a14-a56f-b97dd12ae4b6	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241001	13:46:41	0bd26859-fb7e-4278-a913-1c1331a33a13	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241001	13:46:52	e835dff0-14d9-4127-bedb-27c94dd9e3d7	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241001	13:46:53	470a9899-7d2c-4ca6-bb72-1981a5bca041	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241001	13:46:58	0333cd30-b8bf-4659-a48b-11c26cf6b82e	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241001	13:46:59	571b7ba3-c4de-46be-ac2b-63a28b049ebb	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241001	13:46:59	efe45dd0-4bc3-4bf6-be91-f0eb56c0880c	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241001	13:47:04	030c6f75-3c8f-40e9-b978-62e6a0afc3e5	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241001	13:47:09	ede5d87f-5920-447d-aed8-ab3a1c4339fa	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241001	13:50:50	a033f4c3-737f-4523-bd07-a68ae79ee3d5	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241002	14:01:32	88549c5d-4197-44a3-a54d-89a9b72e5e1f	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241002	14:03:59	334fb084-86b3-4dc8-85a2-0d23996b6828	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241007	23:38:02	7cf931c9-b019-4baa-9ab7-781a30ada41d	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241011	23:20:27	a9d1eca4-786f-40c2-ad85-71eee4f4e3a1	MongoServerError: E11000 duplicate key error collection: CompanyDB.students index: email_1 dup key: { email: "Maggieou0511@gmail.com" }	POST	/students	http://localhost:3000
+20241011	23:21:28	4396b332-fc4e-4bf9-9280-0f4ff0783e68	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241011	23:22:18	bfd29d42-eebb-42b9-b751-5ee23de1b882	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241011	23:26:58	111b4f35-7baa-45fc-97cd-b8ed3fd2debc	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241011	23:30:15	aa481855-856d-4a73-aca5-4a06ddd22a67	Error: Not allowed by LMCFilm CORS	GET	/records	http://localhost:3001
+20241011	23:30:15	58049b5a-1f46-4d30-a6ee-a0e86d8de555	Error: Not allowed by LMCFilm CORS	GET	/records	http://localhost:3001
+20241011	23:30:35	6c95bc37-688c-4bbc-aced-6c2ff108f3c5	Error: Not allowed by LMCFilm CORS	GET	/records	http://localhost:3001
+20241011	23:30:35	ad1d530b-5cba-4367-b3a2-5d2e08991888	Error: Not allowed by LMCFilm CORS	GET	/records	http://localhost:3001
+20241011	23:30:42	3d90ec82-21c9-4424-9690-2214fa422afc	Error: Not allowed by LMCFilm CORS	GET	/records	http://localhost:3001
+20241011	23:30:42	8f975581-5185-48b0-b0c1-c47e98db573b	Error: Not allowed by LMCFilm CORS	GET	/records	http://localhost:3001
+20241012	01:20:49	41c1157f-4bf0-4c17-91f6-e66a4f80a0bb	Error: read ECONNRESET	GET	/students	http://localhost:3000
+20241016	01:12:11	06ad899d-7246-45ea-a57c-c435ae2009af	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241016	22:51:42	d98b45af-abe2-41bc-aaa7-6eeacb4ee3bd	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241016	22:51:49	7842a96f-c230-4e06-aa97-7e8cc4b624c4	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241018	17:30:33	f766d219-0ec9-45d0-b24f-4219a3b667ae	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241018	17:30:55	a42457a3-c2a3-4e9a-9c97-870d24ff6292	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241018	17:44:11	d59f6339-023c-46f3-b861-b87ad0ff44cb	Error: Student not found	PUT	/students//add-classcode	http://localhost:3000
+20241018	17:44:19	581e01e2-fee9-40ae-b89e-32396e5e0e30	Error: Student not found	PUT	/students//add-classcode	http://localhost:3000
+20241018	17:44:19	8b290a81-b6df-4af6-bebb-7df053444689	Error: Student not found	PUT	/students//add-classcode	http://localhost:3000
+20241018	17:44:20	554d2863-6032-476b-8789-b4dc39284ce3	Error: Student not found	PUT	/students//add-classcode	http://localhost:3000
+20241018	18:43:12	f8657e16-acaa-4d07-ad89-e96005ec3726	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241018	19:39:17	2ea738b5-38ea-4104-8b36-b14d88c9f7f8	ValidationError: Order validation failed: checkedin: Cast to date failed for value "false" (type boolean) at path "checkedin", checkedout: Cast to date failed for value "false" (type boolean) at path "checkedout", checkedinStatus: Cast to date failed for value "false" (type boolean) at path "checkedinStatus", checkedoutStatus: Cast to date failed for value "false" (type boolean) at path "checkedoutStatus"	POST	/api/order	undefined
+20241018	19:39:43	0bb507cd-acf3-4534-a86c-c284c53be367	ValidationError: Order validation failed: checkedin: Cast to date failed for value "false" (type boolean) at path "checkedin", checkedout: Cast to date failed for value "false" (type boolean) at path "checkedout", checkedinStatus: Cast to date failed for value "false" (type boolean) at path "checkedinStatus", checkedoutStatus: Cast to date failed for value "false" (type boolean) at path "checkedoutStatus"	POST	/api/order	undefined
+20241018	19:39:54	90a84c61-6450-4067-a8db-db0d4aa237bc	ValidationError: Order validation failed: checkedin: Cast to date failed for value "false" (type boolean) at path "checkedin", checkedout: Cast to date failed for value "false" (type boolean) at path "checkedout", checkedinStatus: Cast to date failed for value "false" (type boolean) at path "checkedinStatus", checkedoutStatus: Cast to date failed for value "false" (type boolean) at path "checkedoutStatus"	POST	/api/order	undefined
+20241018	19:42:04	9be52a1f-f5f6-4f38-a290-e1d8af82ffc2	ValidationError: Order validation failed: checkedin: Cast to date failed for value "false" (type boolean) at path "checkedin", checkedout: Cast to date failed for value "false" (type boolean) at path "checkedout"	POST	/api/order	undefined
+20241018	20:02:31	ebf17374-6715-4a65-b2a1-bd9053995214	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241018	20:12:35	12c04b4b-fa0a-4b95-8339-8d6cfd7289e7	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241018	20:12:45	f91e6f84-ef47-4310-8a52-532e5cb274c9	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241018	20:23:04	8ffd8ada-20f0-41f3-b65a-18403b394d61	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241018	20:29:51	df72fbac-74c6-4005-9f9f-a586974cc61f	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241018	22:06:58	ef0174c6-9d6a-465d-bdaa-be5c6e4ad4c1	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241018	22:12:34	2fc81055-b279-419c-947d-19139ddac024	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241018	22:24:38	49083a65-5f52-477c-83fa-f8530a7dc318	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241018	23:15:24	ede0ec7b-effa-4a9b-861b-5ab94145005c	Error: Student not found	PUT	/students//add-classcode	http://localhost:3000
+20241018	23:15:54	342205fc-5737-429d-94a5-45e1cece126d	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241018	23:16:03	2a0ab9e0-2dfa-4876-9988-111f6dcab102	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241019	00:17:24	9ea0ffd2-f1b6-43e8-a814-1a38cd069629	ValidationError: Order validation failed: equipment.0: Cast to [string] failed for value "[\n' +
+  "  { itemName: 'Camera_A', itemId: '1' },\n" +
+  "  { itemName: 'Camera_A', itemId: '12' },\n" +
+  "  { itemName: 'Camera_A', itemId: '123' },\n" +
+  "  { itemName: 'Photography_Kit', itemId: '1234' }\n" +
+  ']" (type string) at path "equipment.0" because of "CastError"	PUT	/api/order/Order-41429345	http://localhost:3000
+20241019	00:17:24	3173969e-d5ec-4926-bebe-6cff384776e3	ValidationError: Order validation failed: equipment.0: Cast to [string] failed for value "[\n' +
+  "  { itemName: 'Camera_A', itemId: '1' },\n" +
+  "  { itemName: 'Camera_A', itemId: '12' },\n" +
+  "  { itemName: 'Camera_A', itemId: '123' },\n" +
+  "  { itemName: 'Photography_Kit', itemId: '1234' }\n" +
+  ']" (type string) at path "equipment.0" because of "CastError"	PUT	/api/order/Order-41429345	http://localhost:3000
+20241019	00:23:44	a28b238a-1c2a-4d16-aa2e-1e5ba0369144	ValidationError: Order validation failed: equipment.0: Cast to [string] failed for value "[\n' +
+  "  { itemName: 'Camera_A', itemId: '1' },\n" +
+  "  { itemName: 'Camera_A', itemId: '12' },\n" +
+  "  { itemName: 'Camera_A', itemId: '123' },\n" +
+  "  { itemName: 'Photography_Kit', itemId: '1223' }\n" +
+  ']" (type string) at path "equipment.0" because of "CastError"	PUT	/api/order/Order-41429345	http://localhost:3000
+20241019	00:37:20	583ea9f4-e1aa-4540-bfcd-fe2aee862fa5	Error: Student not found	PUT	/students//add-classcode	http://localhost:3000
+20241019	00:37:41	6fd9c441-e8cc-47db-8280-30b144291198	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241019	00:38:06	b189fe7b-ad3c-4b42-a5e8-3ea3c2202aee	ValidationError: Order validation failed: equipment: Cast to embedded failed for value "Camera_A" (type string) at path "equipment" because of "ObjectParameterError"	POST	/api/order	http://localhost:3000
+20241019	00:53:24	49356810-0177-409b-8900-58c014d936d4	ValidationError: Order validation failed: checkedoutStatus: Path `checkedoutStatus` is required., checkedinStatus: Path `checkedinStatus` is required.	POST	/api/order	undefined
+20241019	01:09:25	22eab05b-dc22-4d86-ad5b-b834a52b314a	ValidationError: Order validation failed: equipment.0.itemName: Path `itemName` is required.	PUT	/api/order/Order-112221221221	http://localhost:3000
+20241019	01:11:43	fc668cf4-bd4b-4757-a8c8-bbfb8f002093	TypeError: equipment.forEach is not a function	PUT	/api/order/Order-112221221221	http://localhost:3000
+20241019	01:16:23	3140dd4c-380c-47a2-90c6-737dccf5aff6	ValidationError: Order validation failed: checkedoutStatus: Path `checkedoutStatus` is required., checkedinStatus: Path `checkedinStatus` is required., equipment.0.itemName: Path `itemName` is required.	PUT	/api/order/Order-1122212211	http://localhost:3000
+20241019	10:55:42	b2bcd821-a0a2-436d-a8eb-d46c3206e4a1	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241019	10:55:49	facb7b50-af3c-4fd7-9112-07433e730fdb	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241019	11:00:51	820b1ccb-039c-434b-b36b-6354d926761e	ValidationError: Order validation failed: equipment.0.itemName: Path `itemName` is required.	PUT	/api/order/Order-945663393	http://localhost:3000
+20241019	11:03:28	63b2e462-4ed4-4832-ab42-cf6c54ede0ef	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241019	11:05:37	fd248739-88ae-4973-8b0a-914b8390852b	ValidationError: Order validation failed: equipment.0.itemName: Path `itemName` is required.	PUT	/api/order/Order-275593690	http://localhost:3000
+20241019	11:06:56	6b5fe9b8-c55b-400a-8d91-2c03fa5d96f5	ValidationError: Order validation failed: equipment.0.itemName: Path `itemName` is required.	PUT	/api/order/Order-112221221221	http://localhost:3000
+20241019	11:08:23	9172b167-c936-4331-b0b1-33f8a632d48f	ValidationError: Order validation failed: equipment.0.itemName: Path `itemName` is required.	PUT	/api/order/Order-112221221221	http://localhost:3000
+20241019	11:37:01	ca4f0f6b-5da3-4978-a9da-7388212f74c3	ValidationError: Order validation failed: equipment.0.itemName: Path `itemName` is required.	PUT	/api/order/Order-112221221221	http://localhost:3000
+20241019	11:41:21	66b46523-578a-48e3-9c19-6e1b69dd0033	ValidationError: Order validation failed: equipment.0.itemName: Path `itemName` is required.	PUT	/api/order/Order-112221221221	http://localhost:3000
+20241019	11:42:22	4e2a0636-f99c-43d0-801b-1cc3bf8e681a	ValidationError: Order validation failed: equipment.0.itemName: Path `itemName` is required.	PUT	/api/order/Order-112221221221	http://localhost:3000
+20241019	11:50:19	efa54bd1-bbdd-4983-9a8d-214996503ebf	ValidationError: Order validation failed: equipment.0.itemName: Path `itemName` is required.	PUT	/api/order/Order-112221221221	http://localhost:3000
+20241019	11:54:42	8f4009ab-c893-446c-8eaf-213587df8b04	ValidationError: Order validation failed: equipment.0.itemId: Path `itemId` is required., equipment.0.itemName: Path `itemName` is required.	PUT	/api/order/Order-112221221221	http://localhost:3000
+20241019	11:55:33	6aaead1e-2804-433d-b716-ee33ac98d413	ValidationError: Order validation failed: equipment.0.itemId: Path `itemId` is required., equipment.0.itemName: Path `itemName` is required.	PUT	/api/order/Order-112221221221	http://localhost:3000
+20241019	11:59:47	a5da3080-9a5b-4204-9d28-70e007b756b4	ValidationError: Order validation failed: equipment.0.itemId: Path `itemId` is required., equipment.0.itemName: Path `itemName` is required.	PUT	/api/order/Order-112221221221	http://localhost:3000
+20241019	12:03:11	cc0b28c8-39cc-46aa-b6c0-5616ea97fef3	ValidationError: Order validation failed: equipment.0.itemId: Path `itemId` is required., equipment.0.itemName: Path `itemName` is required.	PUT	/api/order/Order-112221221221	http://localhost:3000
+20241019	13:02:39	83acbfbc-56bc-4f4a-aca1-624687ca8ac3	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241019	13:02:59	f37d1e8a-4a8a-4c53-87bc-5ad020a375f7	ValidationError: Order validation failed: equipment.0.itemId: Path `itemId` is required., equipment.1.itemId: Path `itemId` is required.	POST	/api/order	http://localhost:3000
+20241019	13:06:42	38a0605c-417d-445e-afcd-8107bede40f4	ValidationError: Order validation failed: equipment.0.itemId: Path `itemId` is required., equipment.1.itemId: Path `itemId` is required.	POST	/api/order	undefined
+20241019	13:07:06	3b55b28a-1bce-465e-a7ac-eb3a2b16129c	ValidationError: Order validation failed: equipment.0.itemId: Path `itemId` is required., equipment.1.itemId: Path `itemId` is required.	POST	/api/order	undefined
+20241019	13:09:13	e30b1076-bd8f-4edd-b91c-36ab646c3b79	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241019	13:35:49	99316351-3ccd-4865-9887-717db61624e5	ValidationError: Order validation failed: checkedoutStatus: Path `checkedoutStatus` is required.	PUT	/api/order/Order-1123	http://localhost:3000
+20241019	13:40:01	daffc15b-e4bc-4f9b-86bb-753fcaef402f	ValidationError: Order validation failed: checkedoutStatus: Path `checkedoutStatus` is required.	PUT	/api/order/Order-1123	undefined
+20241019	13:56:23	1e76ab80-240e-44e9-bd97-cc27bddececc	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241020	12:45:49	17760690-c779-465d-acf3-abc1ddfddec5	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241020	13:04:36	385ac4de-f310-4413-8bb0-26782ae91fc5	ValidationError: BundleItem validation failed: price: Cast to Number failed for value "1222sssss" (type string) at path "price"	POST	/api/bundle-item	http://localhost:3000
+20241020	19:50:00	f910d4a5-edca-422d-9052-6329091fa95e	Error: Student not found	PUT	/students//add-classcode	http://localhost:3000
+20241020	19:50:02	894890da-e5c7-4d70-b2e2-98725ac7a610	Error: Student not found	PUT	/students//add-classcode	http://localhost:3000
+20241020	19:50:03	83bdd6e6-632a-49f0-b1d4-6a939258cb4d	Error: Student not found	PUT	/students//add-classcode	http://localhost:3000
+20241020	19:52:57	aa655214-aae8-4f48-a482-3c12be8b7396	Error: Student with this email already exists	POST	/students	http://localhost:3000
+20241020	19:53:18	efeb45ba-3a9b-43ea-bd3c-75fb235cf763	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241020	19:53:25	a64e2a52-fd70-4199-b648-2e4851aead9d	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241020	20:06:05	30e3ad36-2166-4784-9244-3407f20f92db	Error: Student not found	PUT	/students//add-classcode	http://localhost:3000
+20241020	20:06:08	21cfa678-8e2f-4f27-9942-7512ddd9a854	Error: Student not found	PUT	/students//add-classcode	http://localhost:3000
+20241020	20:06:26	29fc7e2c-8562-43a5-8a8d-51f3069617f6	Error: Student not found	PUT	/students//add-classcode	http://localhost:3000
+20241021	17:14:13	c4c408cf-8540-45a3-810c-4f7a42986c73	CastError: Cast to ObjectId failed for value "12345" (type string) at path "_id" for model "Item"	DELETE	/api/deleteItemId/12345/	http://localhost:3000
+20241023	11:40:10	d03ce84f-013a-4375-aebc-d596e4aba462	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241023	11:41:14	e8474020-7ef7-46d1-824f-6b543944dc43	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241023	11:41:14	9f46c3c1-b7d2-4710-8f80-1ce7a640ebbf	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241023	11:44:08	d6e513f1-1005-4420-9960-890837a3ef91	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241023	11:44:08	87dbdfb6-6add-47a7-8c42-73f8656e8ea3	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241023	12:02:27	09d75bd4-fdc1-4e69-bc9a-2b048b5e65b7	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241023	12:03:06	f10b2509-eced-444e-b4bc-98443e93dc2a	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241023	12:07:10	4c84aa17-21a4-41bf-81f5-c03c3ce59f90	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241023	12:07:10	5e6f1124-9793-4e62-bdfd-91472c326fc4	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241023	12:15:21	365d7989-502e-4a86-b704-65d50afa4404	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241023	12:15:21	4c310ac2-4962-49f1-a88b-edc889da45be	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241023	21:33:40	9e28140d-d17b-4e29-84a6-1f2dbe35efce	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241023	21:34:05	692a1966-7f7b-4cfd-82fb-a44560380df2	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241023	21:34:05	15252fbe-20cc-49c6-8eb6-2e91f8d7a442	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241023	21:37:45	62bde9b2-22df-4a96-90ed-a55e98d1952d	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241023	21:38:01	9064195e-e050-41d0-b80e-4fec11d82444	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241023	21:38:01	275bfa08-0814-43fa-a24e-731f0cce4d3e	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241023	21:39:38	030a7148-5641-40da-ae46-a1fd7c23207a	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241023	21:39:52	2e6bf6f1-8a4e-44f0-bb6f-297921594ed4	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241023	21:39:52	c14f6b81-d22f-48dc-a4f5-28e4f1e79c1b	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241029	23:42:05	496edf9b-ea55-4fd8-90f9-6ec4797e3c00	CastError: Cast to ObjectId failed for value "12345" (type string) at path "_id" for model "Item"	DELETE	/api/deleteItemId/12345/	http://localhost:3000
+20241029	23:42:25	d9feb3ee-0a00-432c-bed1-ec33350e9faa	CastError: Cast to ObjectId failed for value "12345" (type string) at path "_id" for model "Item"	DELETE	/api/deleteItemId/12345/	http://localhost:3000
+20241029	23:42:31	dd326e96-5d1b-4100-b49c-3e2cd60e1a0a	CastError: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "Item"	DELETE	/api/deleteItemId/123/	http://localhost:3000
+20241029	23:50:42	6374c45d-cc9e-449d-a612-a08104cf53aa	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241029	23:51:13	fe9e21e3-7aa4-4142-b237-222679999085	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241029	23:51:13	048b8986-888a-4981-98a3-14bcb9a562b5	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241029	23:52:45	0a66fb80-cab6-4f03-b999-35f943604ab8	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241029	23:52:59	bc7826fe-a95e-456f-af8f-e015366bf52d	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241029	23:52:59	ed3f865c-a19d-4137-905b-df346eb2f70c	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241030	14:30:48	a66008eb-feb8-48f4-813e-b8c939d048a9	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241030	14:31:16	510d453c-91c3-4246-b6d4-f94134ee898e	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241030	14:31:16	1dbc761c-7469-45c1-9f0c-fedf10800f40	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241030	14:31:33	c70a9fa5-1175-40ed-b0dd-f48ab775ff84	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241030	14:31:48	23d84606-4e43-4544-8031-b3ba52743ca4	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241030	14:31:48	ee3e6a5e-d907-4d67-9164-0d28a7c086b3	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241030	17:14:54	6fe027fb-bbf1-4cf0-a941-f38be1090ed6	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241030	17:15:15	7083533c-df6f-4edf-9fcd-bcf54d68ae17	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241030	17:15:15	72f0a2ed-a36a-4399-95fd-0bda0bd225b8	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241101	17:25:57	f950136c-9f3c-493e-82b0-70fe8dbee54e	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241101	17:29:05	daf27eeb-6d45-4077-bbc7-c21d28398393	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241103	23:26:48	517958a4-bdff-416d-a1c9-90273e8d331d	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241103	23:27:10	2104577c-d645-4df1-ab7e-3932200666dd	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241103	23:27:10	f3621d08-5b92-4049-b632-906247699951	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241103	23:31:00	bc3d9b33-6d3c-43b2-91f1-08a1d5594093	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241103	23:31:13	91f1597c-3d1b-4093-9e0c-d67f926cce71	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241103	23:32:44	8a812ade-7c59-4cec-91e5-5da660f7b485	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241103	23:33:13	d4fb6100-4b25-4b76-a061-5a8e7ed3f0fa	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241103	23:34:05	e59727fa-2edb-4671-a1cf-37928978c88c	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241103	23:39:25	e78ebd92-225a-4be8-bec5-456954429ee2	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241103	23:40:22	e4accfea-c9ff-427b-87dd-24d1539b9726	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241103	23:42:39	6bedf6d8-e6ae-44bc-8ec5-53048c13ef4d	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241103	23:47:46	0f18af7d-6270-41f1-935f-b69da9767f40	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241103	23:50:49	9099497a-3849-4ed6-9e3d-0393827f2ce8	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241103	23:52:38	cc84e232-d0fd-49ae-ac65-d6e281fb8cec	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241103	23:54:25	e2fd0431-f58e-40d8-a58a-9e6c505f92a0	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241103	23:54:25	91846454-f56f-4562-86af-8ef3b1b906fb	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241104	21:45:25	e3de6d12-320a-4e41-a0b0-7a5b2f43ff30	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241104	21:45:56	69f4a5e8-3527-46fe-aa04-0ff0084867f8	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241104	21:45:56	e2820e79-f15b-4686-bbaf-d3e42fcf3301	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241106	17:42:49	f5f72f2e-8197-4264-a86b-f545d1c8d2fc	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241106	17:43:12	59654869-a6bf-432d-a560-3bbae57ecb8e	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241106	17:43:12	bae01e81-e050-4651-b979-d5c7ba7c4ea9	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241107	20:38:04	1a9f8964-8b38-4ab3-a2d8-9b868ae47d2b	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241107	20:38:36	ac8349a5-58ec-4e89-91c1-d594ad67bbf9	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241107	20:38:36	ad72ae30-8a0d-401c-a3f1-c85b9810ea0c	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241107	20:57:21	f86abc69-e15d-446b-a20f-ee0946be93e6	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241107	20:57:21	135aae91-a39a-4a8b-bd3d-eb130e98d8cd	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241107	21:10:53	00d2f1de-d1d2-40d5-9ba3-8094382218a2	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241107	21:10:54	4e7d08c5-4c51-47ce-b99a-63129adf817d	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241107	21:10:54	4a39858f-33f2-4081-b383-7420e79f0434	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241110	22:09:56	45c1deaf-9cf3-450a-9de0-c1917195c26e	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241110	22:09:56	240da59d-2af3-40e9-adf1-fbb38f9311fa	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241110	22:09:58	8527d8cc-3566-4e2d-bcd7-8bb4a02f231e	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241110	22:10:01	3752cd30-f860-489f-b57d-35f712841cfc	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241110	22:10:01	400255f7-62b0-4cc5-ad43-e6df022f0674	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241110	22:10:03	26198538-1f99-428a-9ee0-599d43fc63b9	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241110	22:10:07	d7c34586-f7e4-4e6f-9021-aa3064737261	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241110	22:10:07	0f3afce0-a052-4eb7-becc-792a60549dfa	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241110	22:10:08	c0099ce9-8ca4-4848-8433-e2db6ba51b57	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241110	22:10:15	9b74114b-0953-4068-b96e-a38b1e5b4e1c	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241111	11:28:49	ba35b315-1602-42d4-acf0-de3c4bd8e780	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241111	11:29:12	436a5deb-629a-41ad-a4ca-075b810a3f31	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241111	11:29:12	bf0b88a9-3692-4d77-8148-8252b719c1e8	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241112	14:39:28	d8772e49-7579-435a-b0c4-a9b2d9f97280	Error: Damage report not found	GET	/api/damage-reports/6733ac956ea72ac2d0779438	http://localhost:3000
+20241113	16:13:20	91d3de74-5239-4a43-8a32-43db4256e525	ReferenceError: print is not defined	PUT	/api/item/6733c790efb5dda348cc812d	http://localhost:3000
+20241113	16:14:14	4d63784a-3c74-4a3b-9808-c1c81e03c171	TypeError: item.length is not a function	PUT	/api/item/6735137fa86772f614359022	http://localhost:3000
+20241113	16:17:20	c072398d-451d-4450-bcb2-24e2967a3441	TypeError: item.length is not a function	PUT	/api/item/6735137fa86772f614359022	http://localhost:3000
+20241113	16:19:53	5d493596-ba39-4611-a6c3-90e941e32236	MongoServerError: E11000 duplicate key error collection: CompanyDB.items index: itemName_1 dup key: { itemName: "Tripods" }	PUT	/api/item/673513b0a86772f614359057	http://localhost:3000
+20241113	16:21:57	2fa3ea14-dfb6-4a92-b6a9-d4c9e8eb18d3	MongoServerError: E11000 duplicate key error collection: CompanyDB.items index: itemName_1 dup key: { itemName: "Tripods" }	PUT	/api/item/673513b0a86772f614359057	http://localhost:3000
+20241113	16:24:16	4f6ef739-b6ed-4973-920c-ffd89b66817c	MongoServerError: E11000 duplicate key error collection: CompanyDB.items index: itemName_1 dup key: { itemName: "Tripods" }	PUT	/api/item/673513b0a86772f614359057	http://localhost:3000
+20241113	16:24:24	8266080e-98d9-4d9f-b5df-02683ab51869	MongoServerError: E11000 duplicate key error collection: CompanyDB.items index: itemName_1 dup key: { itemName: "Tripods" }	PUT	/api/item/673513b0a86772f614359057	http://localhost:3000
+20241113	16:25:50	68a4dfdc-e4a0-436d-8bdb-7d1b452e24de	MongoServerError: E11000 duplicate key error collection: CompanyDB.items index: itemName_1 dup key: { itemName: "Microphone" }	PUT	/api/item/673513b0a86772f614359057	http://localhost:3000
+20241113	16:27:13	9b1fa167-98ec-4249-9310-f1e6935f53d6	MongoServerError: E11000 duplicate key error collection: CompanyDB.items index: itemName_1 dup key: { itemName: "Tripods" }	PUT	/api/item/673513b0a86772f614359057	http://localhost:3000
+20241119	21:34:25	0dd24140-183d-4d1e-8aa4-7afc37f76524	Error: Student with this email already exists	POST	/students	http://localhost:3000
+20241119	21:35:11	9c588e2f-cf2e-4b43-a0f5-9a0c1aef5b09	Error: Student not found	GET	/students/[object%20Object]	http://localhost:3000
+20241119	21:35:11	b75f8aab-206e-4c2b-b787-5042bffe962a	Error: Student not found	GET	/students/[object%20Object]	http://localhost:3000
+20241119	21:40:38	354393e7-01f0-46bf-8a2b-5b5347d7409e	Error: Student not found	GET	/students/[object%20Object]	http://localhost:3000
+20241119	21:40:38	3d668f2b-c4f7-46a3-9737-e4c6ec12ab87	Error: Student not found	GET	/students/[object%20Object]	http://localhost:3000
+20241119	22:35:33	2780602c-d286-4e43-b9be-20a85bc41697	Error: Invalid email or password	POST	/students/login	http://localhost:3000
+20241120	11:43:28	2f383e74-e9d5-4eed-8bc1-7bc101e8b465	Error: Not allowed by LMCFilm CORS	OPTIONS	/user/auth/register	https://joblinkhub.netlify.app
+20241120	11:43:29	4fe3a88b-74e2-4da6-add9-046c175f9282	Error: Not allowed by LMCFilm CORS	OPTIONS	/user/auth/register	https://joblinkhub.netlify.app
+20241120	11:43:29	971c39d3-86c5-4d76-a19c-aca5df85bac9	Error: Not allowed by LMCFilm CORS	OPTIONS	/user/auth/register	https://joblinkhub.netlify.app
+20241120	21:00:52	d2b9ab26-3948-4b30-b730-5d997d4e265a	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241120	21:01:25	186fe18f-30bc-40c3-b2b6-69565cb7b1f2	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241120	21:01:25	aa61774a-84c9-408e-99fd-ed83ec90a7b5	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241120	23:56:36	bf674625-e078-4061-ac3a-8102a11374cb	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241120	23:56:37	66bc3d12-3d79-4616-8624-a48f73500a78	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241120	23:56:37	d4e42183-c163-4890-884b-8d75975977a5	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241120	23:56:37	8e21ba7b-6e88-4f69-94cc-6d77e8a263c7	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241121	14:30:30	5070e7c7-6c4d-45f5-9f11-2f5ea8a5b061	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241121	14:30:32	784a1b95-0c7c-41e6-bab5-35cc0a794243	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241121	14:30:32	cc4bcca6-70fb-4786-bc7d-652fbac88558	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241121	14:42:17	cc229dde-c312-47fd-b65f-9ad335251a61	ValidationError: Student validation failed: role: `SA` is not a valid enum value for path `role`.	PUT	/students/a1106983163@gmail.com/add-classcode	http://localhost:3000
+20241121	15:58:43	24282e32-683d-407d-81ec-40968f8c9a80	ValidationError: Student validation failed: role: `SA` is not a valid enum value for path `role`.	PUT	/students/a1106983163@gmail.com/add-classcode	http://localhost:3000
+20241121	19:11:19	ad75d21f-e649-4393-a543-7c65e38765f7	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241121	19:11:19	882d1f94-1fa1-4efc-8429-f66eb12d5bdb	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241121	19:11:21	34c9ab73-0332-472c-a154-9d2bd2739214	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241121	19:11:25	1f8db78a-1c6c-4dea-936f-eba86af1e7ac	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241121	19:11:42	e091c0cc-7aa7-41fe-864a-d85a5df18403	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241121	19:20:33	1960d563-f535-4e6e-977f-423939bd1b45	ValidationError: Student validation failed: role: `SA` is not a valid enum value for path `role`.	PUT	/students/a1106983163@gmail.com/add-classcode	http://localhost:3000
+20241121	19:34:51	4e87d835-4e7f-4170-aa1f-c3d5564833c7	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241121	19:34:51	ecdb2ea1-2733-4082-8799-501e4aba308f	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241121	19:34:55	9221cea6-4c00-477c-97fe-83a0c6bc1a78	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241121	19:35:13	a4539a2a-bfff-4c01-8000-ad7b3ff7f925	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241121	19:35:34	1fdfee8c-0f66-453d-947a-bd94124c6707	ValidationError: Cart validation failed: itemId: Path `itemId` is required., price: Path `price` is required., quantity: Path `quantity` is required.	POST	/carts	http://localhost:3000
+20241121	19:35:38	f0bcbe2a-d3e0-4198-b0f6-6fcc8f5ec715	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241121	19:35:38	fb3b8fac-9f05-4398-bf4c-1b225f2a7368	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241121	19:35:49	ef1d7fe2-64b9-466c-91df-76c997cfc327	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241121	19:35:49	e7629fcc-28ff-47b3-8ad3-5552957be126	TypeError: Cannot read properties of undefined (reading 'length')	POST	/api/order	http://localhost:3000
+20241121	19:38:08	8fab4087-ed60-45f6-ac9a-e86a3c4b2476	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241121	19:38:08	45c7f393-0215-41cf-a5ac-ba1120c245de	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241121	19:38:16	bf9426d8-9830-4027-9f2f-c264bb31f596	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241121	19:38:19	a0e81546-c4f1-43df-8711-93f41cc5024a	Error: Damage report not found	GET	/api/damage-reports/670ffc32f3839f2390d162f6	http://localhost:3000
+20241122	01:10:50	be1be26e-22f0-4791-aa6e-9ec29605ada4	Error: Not allowed by LMCFilm CORS	OPTIONS	/user/auth/register	https://joblinkhub.netlify.app
